@@ -8,7 +8,18 @@ class BladeController extends Controller
 {
     public function index()
     {
-        return view('pages.home', ['name' => 'Rifqi']);
+        $fruits = array(
+            0 => 'magga', 
+            1 => 'pisang', 
+            2 => 'anggur', 
+            3 => 'gedang', 
+        );
+
+        $name = array(
+            0 => 'Rifqi'
+        );
+
+        return view('pages.home', compact('name', 'fruits'));
     }
     public function about()
     {

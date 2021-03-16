@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title', 'Halaman Home')
 @section('content')
-    ini adalah halaman about
+    Muhammad_Rifqi_Muzakki_5520119087 <br/>
+    IFC_19
 @stop
